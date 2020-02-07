@@ -1,6 +1,7 @@
 import telebot
+import api_key
 
-bot = telebot.TeleBot('1008479383:AAHIq-cvW2PpdeEGc7DKiZcqMMk0AL58pzM')
+bot = telebot.TeleBot(api_key.KEY)
 keyboard1 = telebot.types.ReplyKeyboardMarkup()
 keyboard1.add('О программе', 'Как принять участие', 'Наши контакты', 'Часто задаваемые вопросы', 'Оставить заявку')
 withPhoto = {
